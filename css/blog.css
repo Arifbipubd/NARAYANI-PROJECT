@@ -1,0 +1,144 @@
+#blogBanner{
+  background: linear-gradient(rgba(0,0,0,0.1), #009688),url(../asset/image/blogBanner.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+}
+ .blogHeadingAndSearch{
+     /* display: flex;
+     justify-content: space-between; */
+     margin: 25px 0;
+ }
+
+ @media(max-width:768px){
+  .blogHeadingAndSearch{
+      display: block;
+      line-height: 100px;
+  }
+  .blogSearch{
+      text-align: center;
+  }
+
+}
+
+ /* .blogHeading h1{
+     text-align: left;
+     font-weight: bolder;
+     font-family: serif;
+ }
+
+ @media(max-width:768px){
+  .blogHeading h1{
+    text-align: center;
+  }
+ } */
+
+ .blogSearch{
+   text-align: right;
+ }
+ .blogSearch input{
+     width: 280px;
+     height: 45px;
+     padding: 15px;
+     border-radius: 45px;
+     background: rgb(54, 54, 54,0.5);
+     border: 1px solid rgb(172, 168, 168);
+     color: whitesmoke;
+ }
+ .blogSearch input:focus{
+     outline: none;
+ }
+ .blogSearch .fa{
+     font-size: 20px;
+     height: 45px;
+     width: 45px;
+     text-align: center;
+     line-height: 45px;
+     color: rgb(207, 204, 204);
+     background: rgb(43, 40, 40);
+     border: 1px solid rgb(207, 204, 204);;
+     border-radius: 50%;
+ }
+ .blogSearch .fa:hover{
+     color: rgb(43, 40, 40);
+     background: rgb(207, 204, 204);
+     border: 1px solid rgb(43, 40, 40);
+ }
+
+.BlogCard{
+    height: 360px;
+    width: 260px;
+    background: #ececec;
+    border: 1px solid #ececec;
+    margin: 0 0 25px 0;
+    cursor: pointer;
+  }
+
+  @media(max-width:1024px){
+    .BlogCard{
+      width: 220px;
+    }
+  }
+  @media(max-width:768px){
+    .BlogCard{
+      width: 280px;
+    }
+  }
+  @media(max-width:540px){
+    .BlogCard{
+      width: 300px;
+      margin-left: 110px;
+    }
+    .BlogCardContent p, .BlogCardContent h5{
+      padding: 0 10px;
+      }
+  }
+  @media(max-width:415px){
+    .BlogCard{
+      width: 300px;
+      margin-left: 40px;
+    }
+  }
+  @media(max-width:375px){
+    .BlogCard{
+      width: 300px;
+      margin-left: 25px;
+    }
+  }
+  @media(max-width:320px){
+    .BlogCard{
+      width: 250px;
+      margin-left: 20px;
+    }
+  }
+
+    .BlogCardImg img{
+    width: 100%;
+    height: 150px;
+  }
+    .BlogCardContent {
+    text-align: center;
+    margin: 10px 0 0 0;
+  }
+  .BlogCardContent h5{
+  font-weight: bolder;
+  }
+  .BlogCardContent p{
+    padding: 0 20px;
+    }
+  .BlogButton button{
+    width: 100px;
+    padding: 5px;
+    color: black;
+    border: 1px solid rgb(58, 57, 57);
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 10px;
+    }
+    .BlogButton button:hover{
+      background: black;
+      color: whitesmoke;
+    }
+    div.BlogButton{
+      text-align: center;
+    }

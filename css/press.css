@@ -1,0 +1,126 @@
+#pressBanner{
+    background: linear-gradient(rgba(0,0,0,0.1), #009688),url(../asset/image/pressBanner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+  }
+.pressHeadingAndSearch{
+    /* display: flex;
+    justify-content: space-between; */
+    margin: 25px 0;
+}
+
+@media(max-width:768px){
+    .pressHeadingAndSearch{
+        display: block;
+        line-height: 100px;
+    }
+    .pressSearch{
+        text-align: center;
+    }
+  
+  }
+
+/* .pressHeading h1{
+    text-align: left;
+    font-weight: bolder;
+    font-family: serif;
+}
+
+@media(max-width:768px){
+    .pressHeading h1{
+      text-align: center;
+    }
+   }
+ */
+
+ .pressSearch{
+   text-align: right;
+ }
+.pressSearch input{
+    width: 280px;
+    height: 45px;
+    padding: 15px;
+    border-radius: 45px;
+    background: rgb(54, 54, 54,0.5);
+    border: 1px solid rgb(172, 168, 168);
+    color: whitesmoke;
+}
+.pressSearch input:focus{
+    outline: none;
+}
+.pressSearch .fa{
+    font-size: 20px;
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    line-height: 45px;
+    color: rgb(207, 204, 204);
+    background: rgb(43, 40, 40);
+    border: 1px solid rgb(207, 204, 204);;
+    border-radius: 50%;
+}
+.pressSearch .fa:hover{
+    color: rgb(43, 40, 40);
+    background: rgb(207, 204, 204);
+    border: 1px solid rgb(43, 40, 40);
+}
+   .PressCard{
+    height: 280px;
+    width: 250px;
+    background: #ececec;
+    margin: 0 0 35px 0;
+    cursor: pointer;
+}
+
+
+@media(max-width:1024px){
+    .PressCard{
+      width: 220px;
+    }
+  }
+  @media(max-width:768px){
+    .PressCard{
+      width: 280px;
+    }
+  }
+  @media(max-width:540px){
+    .PressCard{
+      width: 300px;
+      margin-left: 110px;
+    }
+  }
+  @media(max-width:415px){
+    .PressCard{
+      width: 300px;
+      margin-left: 40px;
+    }
+  }
+  @media(max-width:375px){
+    .PressCard{
+      width: 300px;
+      margin-left: 25px;
+    }
+  }
+  @media(max-width:320px){
+    .PressCard{
+      width: 250px;
+      margin-left: 20px;
+    }
+  }
+
+    .PressCardImg img{
+    width: 100%;
+}
+    .PressCardContent {
+    text-align: center;
+    margin: 30px 0 0 0;
+}
+.PressCardContent h5, .PressCardContent h6{
+  font-weight: bolder;
+}
+
+.PressRelease button:hover{
+  background: black;
+  color: whitesmoke;
+}

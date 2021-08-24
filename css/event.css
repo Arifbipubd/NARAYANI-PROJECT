@@ -1,0 +1,203 @@
+#eventBanner{
+    background: linear-gradient(rgba(0,0,0,0.1), #1c4e15),url(../asset/image/eventBanner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+
+
+.contentHeading h1{
+    text-align: center;
+    margin: 40px 0;
+    font-weight: bolder;
+    font-family: serif;
+}
+.eventCard{
+   background: #ececec;
+   border: 1px solid #ececec;
+   margin: 0 0 25px 0;
+   cursor: pointer;
+ }
+
+ @media(max-width:1024px){
+    .eventCard{
+      width: 220px;
+    }
+  }
+  @media(max-width:768px){
+    .eventCard{
+      width: 280px;
+    }
+  }
+  @media(max-width:540px){
+    .eventCard{
+      width: 300px;
+      margin-left: 110px;
+    }
+  }
+  @media(max-width:415px){
+    .eventCard{
+      width: 300px;
+      margin-left: 40px;
+    }
+  }
+  @media(max-width:375px){
+    .eventCard{
+      width: 300px;
+      margin-left: 25px;
+    }
+  }
+  @media(max-width:320px){
+    .eventCard{
+      width: 250px;
+      margin-left: 20px;
+    }
+  }
+
+   .eventCardImg img{
+   width: 100%;
+ }
+   .eventCardContent {
+   text-align: center;
+   margin: 30px 0 0 0;
+   padding: 20px 0 35px 0;
+ }
+ .eventCardContent h5{
+ font-weight: bolder;
+ }
+ .eventCardContent p{
+  padding: 0 20px;
+  }
+.advisoryMemberHeading h1{
+    text-align: center;
+    margin: 40px 0;
+    font-weight: bolder;
+    font-family: serif;
+}
+
+.advisoryMemberCard{
+    height: 280px;
+    width: 250px;
+    background: #ececec;
+    margin-bottom: 30px;
+}
+
+
+
+@media(max-width:1024px){
+    .advisoryMemberCard{
+      width: 220px;
+    }
+  }
+  @media(max-width:768px){
+    .advisoryMemberCard{
+      width: 280px;
+    }
+  }
+  @media(max-width:540px){
+    .advisoryMemberCard{
+      width: 300px;
+      margin-left: 110px;
+    }
+  }
+  @media(max-width:415px){
+    .advisoryMemberCard{
+      width: 300px;
+      margin-left: 40px;
+    }
+  }
+  @media(max-width:375px){
+    .advisoryMemberCard{
+      width: 300px;
+      margin-left: 25px;
+    }
+  }
+  @media(max-width:320px){
+    .advisoryMemberCard{
+      width: 250px;
+      margin-left: 20px;
+    }
+  }
+
+.advisoryMemberCardImg img{
+    width: 100%;
+}
+.advisoryMemberCardContent{
+    margin: 15px 0 0 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+ /* .BlogButton button{
+   width: 100px;
+   padding: 5px;
+   color: black;
+   border: 1px solid rgb(58, 57, 57);
+   font-size: 12px;
+   font-weight: bold;
+   border-radius: 10px;
+   }
+   .BlogButton button:hover{
+     background: black;
+     color: whitesmoke;
+   }
+   div.BlogButton{
+     text-align: center;
+   } */
+.hide-section-2{
+    display: none;
+}
+.hide-section-3{
+    display: none;
+}
+.hide-section-4{
+    display: none;
+}
+.hide-section-5{
+    display: none;
+}
+
+
+.tabs_wrap{
+	padding: 20px;
+	border-bottom: 1px solid #ebedec;
+}
+.tabs_wrap ul{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+.tabs_wrap ul li{
+	width: 135px;
+    text-align: center;
+    background: #e9ecf1;
+    border-right: 1px solid #c1c4c9;
+    padding: 13px 15px;
+	cursor: pointer;
+	-webkit-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+    list-style: none;
+}
+.tabs_wrap ul li:first-child{
+	border-top-left-radius: 25px;
+	border-bottom-left-radius: 25px;
+}
+
+.tabs_wrap ul li:last-child{
+	border-right: 0px;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+.tabs_wrap ul li:hover,
+.tabs_wrap ul li.active{
+	background: #7fc469;
+	color: #fff;
+}
+
+.d-hide{
+  display: none;
+}
